@@ -1,0 +1,157 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+/* comon style */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(243, 241, 255);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    width: 870px;
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 21px;
+}
+
+hr {
+    border: 1px solid #D1D1D1;
+    margin-bottom: 27px;
+
+}
+
+.top-players {
+    margin-bottom: 30px;
+}
+
+.section-title {
+    color: rgb(86, 46, 255);
+    font-size: 24px;
+    margin-top: 3px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
+
+.player-name {
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+/* top blog style */
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
+
+.blog .thumnail img {
+    width: 177px;
+    height: 117px;
+}
+
+.thumnail {
+    display: flex;
+}
+
+.blog-info {
+    margin-left: 16px;
+}
+
+.bloge-title {
+    font-size: 20px;
+}
+
+.blog-author {
+    color: rgb(219, 219, 219);
+    font-size: 16px;
+}
+
+.blog-author a {
+    text-decoration: none;
+}
+
+/* -----------------
+courses styles 
+--------------------*/
+.courses {
+    background-color: rgb(235, 235, 235);
+    Width: 252.42px;
+    Height: 269.79px;
+    Top: 900px;
+    Left: 313px;
+    border-radius: 5px;
+    padding: 16px;
+
+}
+
+.courses .Course-banner img {
+    width: 224px;
+    height: 104px;
+}
+
+.course-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fa-star {
+    font-size: 12px;
+}
+
+.fa-star.filled {
+    color: rgb(255, 192, 20);
+}
+
+.fa-star.empty {
+    color: rgb(181, 181, 181);
+}
+
+.all-courses {
+    display: flex;
+    justify-content: space-between;
+}
+
+.courses {
+    background-color: rgb(243, 241, 255);
+    border-radius: 20px;
+}
+
+.course-author {
+    color: rgb(255, 93, 113);
+}
+
+.course-duration {
+    background-color: rgb(255, 228, 232);
+    border: solid rgb(255, 228, 232);
+    border-radius: 50px;
+}
+
+.course-duration span {
+    color: rgb(255, 93, 113);
+}
+
+.fa-clock {
+    color: rgb(255, 93, 113);
+}
